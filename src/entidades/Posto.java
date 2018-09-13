@@ -42,7 +42,6 @@ public class Posto {
     
     public void addRanking(Ranking ranking) {
         ranking.setClassificacao(ranking.getClassificacao());
-        ranking.setNome_ranking(this.getNome_posto());
     	ranking.setPosto(this);
     }
 

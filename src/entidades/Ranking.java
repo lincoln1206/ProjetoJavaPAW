@@ -16,9 +16,6 @@ public class Ranking {
     @JoinColumn(name = "id_posto", referencedColumnName = "id_posto")
     private Posto posto;
 
-    @Column(name = "nome_ranking")
-    private String nome_ranking;
-
     @Column(name = "classificacao")
     private int classificacao;
     

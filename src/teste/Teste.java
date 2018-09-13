@@ -23,7 +23,6 @@ public class Teste {
 
         Ranking ranking = new Ranking();
         ranking.setClassificacao(1);
-        posto.setRanking(ranking);
         posto.addRanking(ranking);
 
         Combustivel combustivel = new Combustivel();
@@ -42,7 +41,6 @@ public class Teste {
         posto.addConveniencia(conveniencia);
 
         Favoritos favoritos = new Favoritos();
-        favoritos.setNome_posto("Posto");
         usuario.addPostoFavorito(favoritos);
 
         manager.getTransaction().begin();
