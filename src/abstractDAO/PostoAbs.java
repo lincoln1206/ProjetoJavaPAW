@@ -1,6 +1,8 @@
-package abstractClass;
+package abstractDAO;
 
-public abstract class PostoAbs extends CrudGenerico {
+import entidades.Posto;
+
+public abstract class PostoAbs extends CrudGenerico<Posto> {
 
 	@SuppressWarnings("unused")
 	public void verificaPosto24horas() {

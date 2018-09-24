@@ -1,8 +1,9 @@
-package gasosadao;
+package gasosaDAO;
 
 import java.util.List;
 
-import abstractClass.PostoAbs;
+import abstractDAO.PostoAbs;
+import entidades.Posto;
 
 public class PostoDao extends PostoAbs{
 
@@ -49,7 +50,7 @@ public class PostoDao extends PostoAbs{
 	}
 
 	@Override
-	public List<Object> obterLista() {
+	public List<Posto> obterLista() {
 		// TODO Auto-generated method stub
 		return super.obterLista();
 	}

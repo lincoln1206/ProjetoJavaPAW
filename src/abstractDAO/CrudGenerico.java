@@ -1,9 +1,10 @@
-package abstractClass;
+package abstractDAO;
 
 import java.util.List;
 
-public abstract class CrudGenerico {
-	public void adicionar() {
+public abstract class CrudGenerico <T> {
+	
+	public void adicionar() { 
 	}
 
 	public void remover() {
@@ -19,7 +20,7 @@ public abstract class CrudGenerico {
 	}
 	
 	@SuppressWarnings("unused")
-	public List<Object> obterLista(){
+	public List<T> obterLista(){
 		return null;}
 	
 	@SuppressWarnings("unused")

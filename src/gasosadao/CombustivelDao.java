@@ -1,11 +1,17 @@
-package gasosadao;
+package gasosaDAO;
 
-import abstractClass.CombustivelAbs;
+import java.util.List;
+
+import abstractDAO.CombustivelAbs;
+import entidades.Combustivel;
 
 public class CombustivelDao extends CombustivelAbs{
 
-	@SuppressWarnings("unused")
-	public void avaliarDicaDePreco() {}
+	@Override
+	public void avaliarDicaDePreco() {
+		// TODO Auto-generated method stub
+		super.avaliarDicaDePreco();
+	}
 
 	@Override
 	public void adicionar() {
@@ -37,6 +43,11 @@ public class CombustivelDao extends CombustivelAbs{
 		super.listar();
 	}
 
+	@Override
+	public List<Combustivel> obterLista() {
+		// TODO Auto-generated method stub
+		return super.obterLista();
+	}
 
 	@Override
 	public void obterDados() {

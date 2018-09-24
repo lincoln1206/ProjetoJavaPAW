@@ -1,8 +1,9 @@
-package gasosadao;
+package gasosaDAO;
 
 import java.util.List;
 
-import abstractClass.FavoritosAbs;
+import abstractDAO.FavoritosAbs;
+import entidades.Favoritos;
 
 public class FavoritosDao extends FavoritosAbs{
 
@@ -37,7 +38,7 @@ public class FavoritosDao extends FavoritosAbs{
 	}
 
 	@Override
-	public List<Object> obterLista() {
+	public List<Favoritos> obterLista() {
 		// TODO Auto-generated method stub
 		return super.obterLista();
 	}

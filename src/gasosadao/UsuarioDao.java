@@ -1,8 +1,9 @@
-package gasosadao;
+package gasosaDAO;
 
 import java.util.List;
 
-import abstractClass.UsuarioAbs;
+import abstractDAO.UsuarioAbs;
+import entidades.Usuario;
 
 public class UsuarioDao extends UsuarioAbs {
 
@@ -73,7 +74,7 @@ public class UsuarioDao extends UsuarioAbs {
 	}
 
 	@Override
-	public List<Object> obterLista() {
+	public List<Usuario> obterLista() {
 		// TODO Auto-generated method stub
 		return super.obterLista();
 	}

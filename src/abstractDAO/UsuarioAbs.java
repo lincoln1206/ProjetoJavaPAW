@@ -1,6 +1,8 @@
-package abstractClass;
+package abstractDAO;
 
-public abstract class UsuarioAbs extends CrudGenerico{
+import entidades.Usuario;
+
+public abstract class UsuarioAbs extends CrudGenerico<Usuario>{
 
 	public void login() {
 	}

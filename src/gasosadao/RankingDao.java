@@ -1,8 +1,9 @@
-package gasosadao;
+package gasosaDAO;
 
 import java.util.List;
 
-import abstractClass.RankingAbs;
+import abstractDAO.RankingAbs;
+import entidades.Ranking;
 
 public class RankingDao extends RankingAbs{
 
@@ -43,7 +44,7 @@ public class RankingDao extends RankingAbs{
 	}
 
 	@Override
-	public List<Object> obterLista() {
+	public List<Ranking> obterLista() {
 		// TODO Auto-generated method stub
 		return super.obterLista();
 	}

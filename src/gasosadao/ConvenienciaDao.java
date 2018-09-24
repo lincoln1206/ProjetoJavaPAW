@@ -1,8 +1,9 @@
-package gasosadao;
+package gasosaDAO;
 
 import java.util.List;
 
-import abstractClass.ConvenienciaAbs;
+import abstractDAO.ConvenienciaAbs;
+import entidades.Conveniencia;
 
 public class ConvenienciaDao extends ConvenienciaAbs {
 
@@ -37,7 +38,7 @@ public class ConvenienciaDao extends ConvenienciaAbs {
 	}
 
 	@Override
-	public List<Object> obterLista() {
+	public List<Conveniencia> obterLista() {
 		// TODO Auto-generated method stub
 		return super.obterLista();
 	}
